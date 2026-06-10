@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Quita</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #FF6B35;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 700; }
+    header p  { font-size: 14px; margin-top: 6px; opacity: .85; }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #FF6B35;
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #FFE0D0;
+    }
+    p  { margin-bottom: 14px; font-size: 15px; }
+    ul { margin: 8px 0 14px 20px; }
+    li { margin-bottom: 6px; font-size: 15px; }
+    .badge {
+      display: inline-block;
+      background: #FFE0D0;
+      color: #C73F00;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 10px;
+      border-radius: 20px;
+      margin-right: 6px;
+    }
+    .highlight {
+      background: #FFF5F0;
+      border-left: 4px solid #FF6B35;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      padding: 24px;
+      border-top: 1px solid #eee;
+    }
+    a { color: #FF6B35; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidade</h1>
+  <p>Quita — Gestão e Quitação de Dívidas &nbsp;|&nbsp; Última atualização: 9 de junho de 2026</p>
+</header>
+
+<main>
+
+  <h2>1. Apresentação</h2>
+  <p>
+    O aplicativo <strong>Quita</strong> é desenvolvido e mantido pela <strong>StarqNet</strong>
+    (CNPJ: a preencher). Esta Política de Privacidade descreve como coletamos, usamos e protegemos
+    suas informações, em conformidade com a
+    <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.
+  </p>
+  <div class="highlight">
+    O Quita foi projetado com <strong>privacidade em primeiro lugar</strong>: seus dados financeiros
+    ficam armazenados exclusivamente no seu dispositivo e <em>nunca</em> são enviados para servidores
+    da StarqNet.
+  </div>
+
+  <h2>2. Dados Coletados e Finalidade</h2>
+
+  <p><span class="badge">Local</span><strong>Informações de dívidas</strong></p>
+  <p>
+    Valores, credores, datas de vencimento e histórico de pagamentos são armazenados
+    localmente no seu dispositivo usando banco de dados criptografado (Hive).
+    Esses dados nunca são transmitidos para servidores externos da StarqNet.
+  </p>
+
+  <p><span class="badge">Local</span><strong>Digitalização de faturas (OCR)</strong></p>
+  <p>
+    Quando você usa a câmera para escanear boletos ou faturas, o reconhecimento de texto
+    é processado <em>inteiramente no próprio dispositivo</em> usando o Google ML Kit.
+    Nenhuma imagem ou texto é enviado para servidores externos.
+  </p>
+
+  <p><span class="badge">Terceiro</span><strong>Consultas à Inteligência Artificial</strong></p>
+  <p>
+    Ao usar recursos de IA (scripts de negociação, análise financeira), as perguntas são
+    enviadas à <strong>Google Gemini API</strong>. Apenas o texto da pergunta é transmitido —
+    sem identificação pessoal, sem dados bancários. Consulte a
+    <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>.
+  </p>
+
+  <p><span class="badge">Terceiro</span><strong>Assinaturas e pagamentos</strong></p>
+  <p>
+    O gerenciamento de assinaturas (Pro e Premium) é realizado pelo
+    <strong>RevenueCat</strong> e pelo <strong>Google Play Billing</strong>.
+    A StarqNet não tem acesso a dados de cartão de crédito. Consulte as políticas de privacidade
+    do <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat</a> e do
+    <a href="https://play.google.com/about/play-terms/" target="_blank">Google Play</a>.
+  </p>
+
+  <p><span class="badge">Local</span><strong>Preferências do aplicativo</strong></p>
+  <p>
+    Configurações como tema, notificações e preferências de plano são salvas localmente
+    usando Flutter Secure Storage. Nenhum dado de preferência é sincronizado com servidores.
+  </p>
+
+  <h2>3. Dados que NÃO coletamos</h2>
+  <ul>
+    <li>Não exigimos cadastro, login ou e-mail</li>
+    <li>Não coletamos nome, CPF, endereço ou dados bancários</li>
+    <li>Não rastreamos localização geográfica</li>
+    <li>Não exibimos anúncios (planos Pro e Premium)</li>
+    <li>Não armazenamos dados em servidores da StarqNet</li>
+  </ul>
+
+  <h2>4. Compartilhamento de Dados</h2>
+  <p>
+    A StarqNet <strong>não vende, aluga ou compartilha</strong> dados pessoais com terceiros,
+    exceto nos casos estritamente necessários para o funcionamento do app descritos acima
+    (Google Gemini, RevenueCat, Google Play).
+  </p>
+
+  <h2>5. Serviços de Terceiros</h2>
+  <ul>
+    <li><strong>Google Gemini API</strong> — Recursos de IA — <a href="https://policies.google.com/privacy" target="_blank">Política</a></li>
+    <li><strong>Google ML Kit</strong> — OCR on-device — <a href="https://developers.google.com/ml-kit/terms" target="_blank">Termos</a></li>
+    <li><strong>RevenueCat</strong> — Assinaturas — <a href="https://www.revenuecat.com/privacy" target="_blank">Política</a></li>
+    <li><strong>Google Play Billing</strong> — Pagamentos — <a href="https://play.google.com/about/play-terms/" target="_blank">Termos</a></li>
+  </ul>
+
+  <h2>6. Segurança dos Dados</h2>
+  <p>
+    Os dados armazenados localmente são protegidos com criptografia AES-256 via Hive.
+    O acesso ao banco de dados requer autenticação do dispositivo (PIN, biometria).
+    A StarqNet adota as melhores práticas de segurança no desenvolvimento do aplicativo.
+  </p>
+
+  <h2>7. Retenção e Exclusão</h2>
+  <p>
+    Como os dados são armazenados localmente, você tem controle total:
+  </p>
+  <ul>
+    <li><strong>Exclusão de dívidas:</strong> disponível dentro do aplicativo</li>
+    <li><strong>Exclusão completa:</strong> desinstale o aplicativo para apagar todos os dados</li>
+    <li><strong>Exportação:</strong> exporte seu plano em PDF a qualquer momento</li>
+  </ul>
+
+  <h2>8. Privacidade de Menores</h2>
+  <p>
+    O Quita não é direcionado a crianças menores de 13 anos. Não coletamos conscientemente
+    informações de menores de idade. Caso identifique uso indevido, entre em contato conosco.
+  </p>
+
+  <h2>9. Seus Direitos (LGPD)</h2>
+  <p>Nos termos da Lei Geral de Proteção de Dados, você tem direito a:</p>
+  <ul>
+    <li>Confirmar a existência de tratamento de dados</li>
+    <li>Acessar seus dados pessoais</li>
+    <li>Corrigir dados incompletos, inexatos ou desatualizados</li>
+    <li>Solicitar a eliminação de dados desnecessários</li>
+    <li>Revogar o consentimento a qualquer momento</li>
+  </ul>
+  <p>
+    Como a maioria dos dados é armazenada localmente no seu dispositivo, você já exerce
+    controle direto sobre eles. Para dúvidas ou solicitações, entre em contato:
+  </p>
+
+  <h2>10. Contato</h2>
+  <p>
+    <strong>StarqNet</strong><br/>
+    E-mail: <a href="mailto:privacidade@starqnet.com.br">privacidade@starqnet.com.br</a><br/>
+    Site: <a href="https://starqnet.com.br" target="_blank">starqnet.com.br</a>
+  </p>
+
+  <h2>11. Alterações desta Política</h2>
+  <p>
+    Esta política pode ser atualizada periodicamente. Alterações significativas serão
+    comunicadas dentro do aplicativo. Recomendamos revisá-la regularmente.
+    O uso continuado do Quita após alterações implica aceitação da política revisada.
+  </p>
+
+</main>
+
+<footer>
+  &copy; 2026 StarqNet — Todos os direitos reservados &nbsp;|&nbsp;
+  Quita v1.0 &nbsp;|&nbsp; LGPD compliant
+</footer>
+
+</body>
+</html>
